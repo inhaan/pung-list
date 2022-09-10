@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>pung list</h1>
+        <div>
+            <input type="text" id="ipt-pung-content" />
+            <button id="btn-create-5">5초</button>
+            <button id="btn-create-10">10초</button>
+            <button id="btn-create-20">20초</button>
+        </div>
+
+        <div style="margin: 1rem 0">
+            <span>총: </span>
+            <span id="total"></span>
+            <span>건 </span>
+            <span>평균 남은시간: </span>
+            <span id="avg-time"></span>
+            <span>초</span>
+        </div>
+
+        <div>
+            <button id="btn-init">초기화</button>
+            <button id="btn-double">x2</button>
+            <button id="btn-extend-all-5">전체+5</button>
+            <button id="btn-stop-all">전체 중지</button>
+            <button id="btn-start-all">전체 시작</button>
+        </div>
+
+        <ul id="pung-list"></ul>
+
+        <script src="main.js"></script>
+    </body>
+</html>
